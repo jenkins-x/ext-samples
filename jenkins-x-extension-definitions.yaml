@@ -1,0 +1,19 @@
+extensions:
+- name: cheddar
+  namespace: jx
+  uuid: 53b91f90-da8d-11e8-9f8b-f2801f1b9fd1
+  description: A sample plugin extension for `jx`
+  plugin:
+    subCommand: cheddar
+    group: Cheese
+    url: https://gist.githubusercontent.com/pmuir/c7d44e622e2814756ea8d7f85a3cf061/raw/c40303dadbe2d5a6367379127bd4d2a64efa99d0/jx-foo
+    description: Some cheddar for JX
+- name: brie
+  namespace: jx
+  uuid: af257db0-da8d-11e8-9f8b-f2801f1b9fd1
+  description: Another sample plugin extension for `jx` that uses the asset jx-brie attached to the release
+  plugin:
+    subCommand: brie
+    group: Cheese
+    description: Some brie for JX
+    assetName: jx-brie
